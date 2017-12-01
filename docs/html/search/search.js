@@ -1,7 +1,7 @@
 function convertToId(search)
 {
   var result = '';
-  for (i=0;i<search.length;i++)
+  for (var i=0;i<search.length;i++)
   {
     var c = search.charAt(i);
     var cn = c.charCodeAt(0);
@@ -166,7 +166,7 @@ function SearchBox(name, resultsPath, inFrame, label)
       {
         this.OnSearchSelectShow();
         var win=this.DOMSearchSelectWindow();
-        for (i=0;i<win.childNodes.length;i++)
+        for (var i=0;i<win.childNodes.length;i++)
         {
           var child = win.childNodes[i]; // get span within a
           if (child.className=='SelectItem')
@@ -217,7 +217,7 @@ function SearchBox(name, resultsPath, inFrame, label)
   {
     var count=0;
     var win=this.DOMSearchSelectWindow();
-    for (i=0;i<win.childNodes.length;i++)
+    for (var i=0;i<win.childNodes.length;i++)
     {
       var child = win.childNodes[i]; // get span within a
       if (child.className=='SelectItem')
@@ -232,7 +232,7 @@ function SearchBox(name, resultsPath, inFrame, label)
   {
     var i,j=0;
     var win=this.DOMSearchSelectWindow();
-    for (i=0;i<win.childNodes.length;i++)
+    for (var i=0;i<win.childNodes.length;i++)
     {
       var child = win.childNodes[i]; // get span within a
       if (child.className=='SelectItem')
