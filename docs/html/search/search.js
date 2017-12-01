@@ -58,7 +58,7 @@ function getYPos(item)
 */
 function SearchBox(name, resultsPath, inFrame, label)
 {
-  if (!name || !resultsPath) {  alert("Missing parameters to SearchBox."); }
+  if (!name || !resultsPath) {  console.log("Missing parameters to SearchBox."); }
 
   // ---------- Instance variables
   this.name                  = name;
