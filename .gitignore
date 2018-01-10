@@ -1,0 +1,6 @@
+
+target/classes/.netbeans_automatic_build
+target/classes/com/metalsa/testproject/TestController.class
+target/test-classes/.netbeans_automatic_build
+target/classes/com/metalsa/testproject/TestController.class
+*.class
